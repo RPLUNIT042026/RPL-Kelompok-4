@@ -21,8 +21,8 @@ Repository proyek kelompok mata kuliah Rekayasa Perangkat Lunak (RPL) sebagai me
 | Nama proyek | BorrowMate |
 | Program studi | Informatika |
 | Mata kuliah | Rekayasa Perangkat Lunak |
-| Kelas | *(isi)* |
-| Dosen pengampu | *(isi)* |
+| Kelas | 04 |
+| Dosen pengampu | Cut Alna Fadhilla, S.Kom., M.Sc |
 | Platform repository | GitHub |
 
 ## 🧑‍🤝‍🧑 Anggota dan Peran
