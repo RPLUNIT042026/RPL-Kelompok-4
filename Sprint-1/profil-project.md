@@ -19,14 +19,14 @@ Mengelola proses peminjaman secara terstruktur, mulai dari publikasi barang, pen
 
 ## Ruang Lingkup
 
-| Termasuk (versi awal) | Tidak termasuk (versi awal) |
-|---|---|
-| Registrasi, login, profil | Pembayaran dan deposit online |
-| Katalog barang beserta foto, kategori, kondisi, lokasi umum | Pengiriman / layanan logistik |
-| Pencarian dan filter barang | Chat real-time |
-| Pengajuan peminjaman dan pengecekan bentrok jadwal | Notifikasi email |
-| Persetujuan/penolakan, konfirmasi serah-terima dan pengembalian | Penanganan laporan konflik tingkat lanjut |
-| Riwayat, keterlambatan, ulasan, dashboard admin | |
+| Termasuk (versi awal) | 
+|---|
+| Registrasi, login, profil | 
+| Katalog barang beserta foto, kategori, kondisi, lokasi umum | 
+| Pencarian dan filter barang | 
+| Pengajuan peminjaman dan pengecekan bentrok jadwal |
+| Persetujuan/penolakan, konfirmasi serah-terima dan pengembalian |
+| Riwayat, keterlambatan, ulasan, dashboard admin | 
 
 Versi awal membatasi **satu transaksi aktif pada satu barang untuk rentang tanggal tertentu**.
 
