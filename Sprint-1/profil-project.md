@@ -7,7 +7,7 @@
 | **Nama project** | BorrowMate |
 | **Jenis** | Aplikasi web peminjaman barang antar mahasiswa |
 | **Metode pengembangan** | Agile Scrum |
-| **Repositori** | `[[isi tautan repositori GitHub](https://github.com/RPLUNIT042026/RPL-Kelompok-4)]` |
+| **Repositori** | [https://github.com/RPLUNIT042026/RPL-Kelompok-4] |
 
 ## Latar Belakang
 
