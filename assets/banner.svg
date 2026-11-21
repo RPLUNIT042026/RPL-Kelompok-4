@@ -1,1 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">BorrowMate</title>
+  <desc id="d">Dua orang saling meminjamkan sebuah kotak barang. Pinjam apa saja, antar sesama mahasiswa.</desc>
+  <rect width="1200" height="340" rx="28" fill="#E6EEEA"/>
+  <circle cx="1000" cy="150" r="190" fill="#D5E4DB" opacity="0.55"/>
+  <circle cx="1130" cy="300" r="110" fill="#C9DBE5" opacity="0.6"/>
+  <circle cx="90" cy="320" r="70" fill="#D5E4DB" opacity="0.5"/>
 
+  <text x="72" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="80" font-weight="700" fill="#2E4A42" letter-spacing="1">BorrowMate</text>
+  <text x="74" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#4F6F63">Pinjam apa saja, antar sesama mahasiswa.</text>
+  <text x="74" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#7F9A8F">Rapi, jelas, tanpa drama.</text>
+
+  <line x1="770" y1="262" x2="1130" y2="262" stroke="#BCCFC5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M804 262 C804 198 896 198 896 262 Z" fill="#9DB8AA"/>
+  <circle cx="850" cy="150" r="27" fill="#9DB8AA"/>
+  <path d="M1004 262 C1004 198 1096 198 1096 262 Z" fill="#8FB0C2"/>
+  <circle cx="1050" cy="150" r="27" fill="#8FB0C2"/>
+
+  <path d="M862 118 Q950 52 1038 118" fill="none" stroke="#2E4A42" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 9" opacity="0.55"/>
+  <rect x="919" y="198" width="62" height="52" rx="12" fill="#FFFFFF" stroke="#2E4A42" stroke-width="2.5"/>
+  <line x1="919" y1="216" x2="981" y2="216" stroke="#9DB8AA" stroke-width="3"/>
+</svg>
