@@ -117,40 +117,11 @@ Python, Django (template HTML), HTML/CSS/JavaScript, SQLite saat pengembangan (M
 
 ## Dokumen Sprint 1
 
-- [Profil Kelompok](docs/sprint-1/profil-kelompok.md)
-- [Profil Project](docs/sprint-1/profil-project.md)
-- [Project Charter](docs/sprint-1/project-charter.md)
+- [Profil Kelompok](Sprint-1/profil-kelompok.md)
+- [Profil Project](Sprint-1/profil-project.md)
+- [Project Charter](Sprint-1/project-charter.md)
 
-<details>
-<summary><b>Struktur repositori</b></summary>
 
-```
-borrowmate/
-├── README.md
-├── .gitignore
-├── assets/
-│   ├── banner.svg
-│   └── divider.svg
-└── docs/
-    ├── sprint-1/
-    │   ├── profil-kelompok.md
-    │   ├── profil-project.md
-    │   └── project-charter.md
-    └── anggota/            ← satu berkas profil per anggota
-```
-
-</details>
-
-<details>
-<summary><b>Cara berkontribusi</b></summary>
-
-1. Ambil tugas dari **Issues** atau papan **Projects**.
-2. Buat cabang: `git checkout -b feature/<nama-fitur>` (untuk dokumen: `profil/<nama>`).
-3. Commit dengan pesan jelas: `feat:`, `fix:`, `docs:`, atau `chore:`, misalnya `docs: tambah profil Riska`.
-4. Push, buka **Pull Request**, minta satu anggota lain meninjau.
-5. Panduan langkah demi langkah untuk pemula: [`docs/anggota/README.md`](docs/anggota/README.md).
-
-</details>
 
 <br>
 
