@@ -8,7 +8,6 @@ Repository proyek kelompok mata kuliah Rekayasa Perangkat Lunak (RPL) sebagai me
 ![Dokumen](https://img.shields.io/badge/DOKUMEN-01-0F766E?style=flat-square)
 ![Proyek](https://img.shields.io/badge/PROYEK-BORROWMATE-F59E0B?style=flat-square)
 
-[⬅️ Kembali ke README](../README.md)
 
 </div>
 
