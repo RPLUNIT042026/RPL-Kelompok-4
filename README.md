@@ -83,7 +83,7 @@ Status akhir (Selesai, Ditolak, Dibatalkan) tidak bisa kembali ke status sebelum
       <b>Riska Fauziati</b><br>Scrum Master Sprint 2<br><sub>250504114</sub>
     </td>
     <td align="center" width="20%">
-      <a href="https://github.com/fariel-hub"><img src="github.com/fariel-hub.png?size=120" width="88" alt="M. Fariel Faisa"></a><br>
+      <a href="https://github.com/fariel-hub"><img src="https://github.com/fariel-hub.png?size=120" width="88" alt="M. Fariel Faisa"></a><br>
       <b>M. Fariel Faisa</b><br>Scrum Master Sprint 3<br><sub>250504121</sub>
     </td>
     <td align="center" width="20%">
