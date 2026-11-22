@@ -1,8 +1,8 @@
 # 👥 Profil Kelompok
 
-**Nama Kelompok:** `[isi nama kelompok]`
-**Mata Kuliah:** `[isi nama mata kuliah]`
-**Dosen Pengampu:** `[isi nama dosen]`
+**Nama Kelompok:** `[RPL-Kelompok-4]`
+**Mata Kuliah:** `[Rekayasa Perangkat Lunak]`
+**Dosen Pengampu:** `[Cut Alna Fadillah, S.Kom., M.Sc]`
 **Proyek:** BorrowMate, website peminjaman barang antar mahasiswa
 
 ---
@@ -14,10 +14,9 @@
 | 1 | Abdul Wahab | 240504113 | [@Xzen-tech](https://github.com/Xzen-tech) | Product Owner |
 | 2 | Arif Firmansyah | 240504123 | [@kecearif786-lgtm](https://github.com/kecearif786-lgtm) | Scrum Master (Sprint 1) |
 | 3 | Riska Fauziati | 250504114 | [@Riskafzti](https://github.com/Riskafzti) | Developer, Scrum Master (Sprint 2) |
-| 4 | M. Fariel Faisa | 250504121 | [@farielfaisa09-sudo](https://github.com/farielfaisa09-sudo) | Developer, Scrum Master (Sprint 3) |
+| 4 | M. Fariel Faisa | 250504121 | [@fariel-hub](https://github.com/fariel-hub) | Developer, Scrum Master (Sprint 3) |
 | 5 | Afdeli Lia Sari Br Sembiring | 250504129 | [@Afdeliliasaribrsembiring](https://github.com/Afdeliliasaribrsembiring) | Developer, Scrum Master (Sprint 4) |
 
-Profil pribadi tiap anggota ada di folder [`docs/anggota/`](../anggota/).
 
 ## Peran dalam Scrum
 
@@ -35,8 +34,7 @@ Scrum Master dijabat bergilir agar semua anggota merasakan tanggung jawab mengel
 - **Acara Scrum:** Sprint Planning (awal sprint), pertemuan singkat rutin, Sprint Review dan Retrospektif (akhir sprint).
 - **Pelacakan tugas:** GitHub Issues dan GitHub Projects (kolom *To Do, Doing, Review, Done*).
 - **Kolaborasi kode:** cabang `main` (stabil), `dev`, dan `feature/*`; perubahan masuk lewat Pull Request yang ditinjau minimal satu anggota lain.
-- **Saluran komunikasi:** `[isi, misalnya grup WhatsApp / Discord]`
-- **Jadwal pertemuan rutin:** `[isi hari dan jam]`
+- **Saluran komunikasi:** [ WhatsApp]
 
 ## Definition of Done (usulan awal)
 
