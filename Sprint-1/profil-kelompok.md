@@ -1,8 +1,8 @@
 # 👥 Profil Kelompok
 
-**Nama Kelompok:** `[RPL-Kelompok-4]`
-**Mata Kuliah:** `[Rekayasa Perangkat Lunak]`
-**Dosen Pengampu:** `[Cut Alna Fadillah, S.Kom., M.Sc]`
+**Nama Kelompok:** [RPL-Kelompok-4]
+**Mata Kuliah:** [Rekayasa Perangkat Lunak]
+**Dosen Pengampu:** [Cut Alna Fadillah, S.Kom., M.Sc]
 **Proyek:** BorrowMate, website peminjaman barang antar mahasiswa
 
 ---
