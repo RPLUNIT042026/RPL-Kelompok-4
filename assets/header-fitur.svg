@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 56" width="1000" height="56" role="img" aria-label="Fitur Utama">
+  <defs><clipPath id="c"><rect width="1000" height="56" rx="14"/></clipPath></defs>
+  <style>
+    .serif{font-family:Georgia,'Times New Roman',serif}
+    .sans{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 6s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .halo{transform-box:fill-box;transform-origin:center;animation:halo 2.4s ease-in-out infinite}
+    @keyframes halo{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.18);opacity:.5}}
+    .shine{animation:shine 4.5s ease-in-out infinite}
+    @keyframes shine{0%{transform:translateX(-200px)}60%,100%{transform:translateX(1200px)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="56" fill="#DDEBE3"/>
+    <rect width="1000" height="56" fill="none" stroke="#A9C7BD" stroke-opacity=".6" rx="14"/>
+    <circle class="halo" cx="38" cy="28" r="17" fill="#A9C7BD" opacity=".5"/>
+    <circle cx="38" cy="28" r="14" fill="#A9C7BD"/>
+    <path class="spin" d="M38 19 l2.6 6.4 l6.4 2.6 l-6.4 2.6 l-2.6 6.4 l-2.6 -6.4 l-6.4 -2.6 l6.4 -2.6 z" fill="#fff"/>
+    <text class="serif" x="68" y="36" font-size="24" font-weight="700" fill="#2F4A44">Fitur Utama</text>
+    <text class="sans" x="975" y="34" font-size="11" font-style="italic" text-anchor="end" fill="#2F4A44" opacity=".7">apa saja yang bisa dilakukan</text>
+    <rect class="shine" x="0" y="-10" width="70" height="80" fill="#fff" opacity=".35" transform="skewX(-20)"/>
+  </g>
+</svg>

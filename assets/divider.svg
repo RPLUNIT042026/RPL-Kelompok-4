@@ -1,2 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="18" viewBox="0 0 1200 18" role="img" aria-labelledby="t d"><title id="t">Pembatas</title><desc id="d">Garis gelombang pastel</desc><defs><linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#B7D0C2"/><stop offset=".35" stop-color="#BCD2DE"/><stop offset=".7" stop-color="#D3C9EA"/><stop offset="1" stop-color="#F1C9B4"/></linearGradient></defs><path d="M0 9 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 q25 -7 50 0 t50 0 " fill="none" stroke="url(#lg)" stroke-width="3" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="1000" height="24" role="presentation">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9DBBB0"/>
+      <stop offset="0.5" stop-color="#C5B5E3"/>
+      <stop offset="1" stop-color="#F0B8A8"/>
+    </linearGradient>
+    <mask id="m">
+      <g>
+        <path d="M0 12 Q12.5 2 25 12 T50 12 T75 12 T100 12 T125 12 T150 12 T175 12 T200 12 T225 12 T250 12 T275 12 T300 12 T325 12 T350 12 T375 12 T400 12 T425 12 T450 12 T475 12 T500 12 T525 12 T550 12 T575 12 T600 12 T625 12 T650 12 T675 12 T700 12 T725 12 T750 12 T775 12 T800 12 T825 12 T850 12 T875 12 T900 12 T925 12 T950 12 T975 12 T1000 12 T1025 12 T1050 12 T1075 12 T1100 12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-50 0" dur="1.6s" repeatCount="indefinite"/>
+      </g>
+    </mask>
+  </defs>
+  <rect width="1000" height="24" fill="url(#g)" mask="url(#m)"/>
+</svg>
