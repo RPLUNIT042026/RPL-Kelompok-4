@@ -11,65 +11,14 @@
 
 ---
 
-> [!NOTE]
-> Mermaid belum memiliki notasi use case resmi, sehingga diagram di bawah digambar dengan *flowchart*: aktor berbentuk kapsul, use case berbentuk oval. Jika dosen meminta notasi UML baku, gambar ulang diagram ini di **draw.io**, **StarUML**, atau **Visual Paradigm** dengan struktur yang sama.
-
 ## 🗺️ Diagram
 
-```mermaid
-flowchart LR
-    PJ(["👤 Peminjam"])
-    PM(["👤 Pemilik"])
-    AD(["👤 Admin"])
+<div align="center">
+  <img src="../assets/use-case-diagram.svg" alt="Use Case Diagram BorrowMate" width="100%"/>
+</div>
 
-    subgraph SISTEM["Sistem BorrowMate"]
-        UC01(["UC-01 Registrasi"])
-        UC02(["UC-02 Login"])
-        UC03(["UC-03 Kelola Profil"])
-        UC04(["UC-04 Cari Barang"])
-        UC16(["UC-16 Filter Kategori"])
-        UC05(["UC-05 Lihat Detail Barang"])
-        UC06(["UC-06 Ajukan Peminjaman"])
-        UC07(["UC-07 Batalkan Pengajuan"])
-        UC08(["UC-08 Lihat Riwayat Peminjaman"])
-        UC09(["UC-09 Beri Ulasan"])
-        UC10(["UC-10 Kelola Barang"])
-        UC11(["UC-11 Setujui atau Tolak Permintaan"])
-        UC12(["UC-12 Konfirmasi Serah Terima"])
-        UC13(["UC-13 Konfirmasi Pengembalian"])
-        UC14(["UC-14 Kelola Pengguna"])
-        UC15(["UC-15 Moderasi Barang"])
-    end
-
-    PJ --- UC01
-    PJ --- UC02
-    PJ --- UC03
-    PJ --- UC04
-    PJ --- UC05
-    PJ --- UC06
-    PJ --- UC07
-    PJ --- UC08
-    PJ --- UC09
-
-    PM --- UC01
-    PM --- UC02
-    PM --- UC03
-    PM --- UC08
-    PM --- UC10
-    PM --- UC11
-    PM --- UC12
-    PM --- UC13
-
-    AD --- UC02
-    AD --- UC14
-    AD --- UC15
-
-    UC06 -.->|"«include»"| UC02
-    UC10 -.->|"«include»"| UC02
-    UC11 -.->|"«include»"| UC02
-    UC16 -.->|"«extend»"| UC04
-    UC09 -.->|"«extend»"| UC13
-```
+> [!NOTE]
+> Diagram digambar dengan notasi UML baku. Semua aktor, termasuk Admin, harus melakukan **Login (UC-02)** sebelum mengakses fungsi terproteksi. Relasi `«include»` digambar untuk UC-06, UC-10, dan UC-11 agar diagram tidak terlalu padat.
 
 **Keterangan relasi**
 
