@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 990" width="1100" height="990" role="img" aria-label="Use case diagram BorrowMate" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+    <path d="M1 1 L9 5 L1 9" fill="none" stroke="#475569" stroke-width="1.6"/>
+  </marker>
+</defs>
+<style>
+  text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;fill:#1E293B}
+  .code{font-size:10px;font-weight:700;fill:#0F766E}
+  .name{font-size:12.5px}
+  .assoc{stroke:#64748B;stroke-width:1.3;fill:none}
+  .dep{stroke:#475569;stroke-width:1.5;fill:none;stroke-dasharray:6 4}
+  .lbl{font-size:11px;font-style:italic;fill:#334155}
+  .act{font-size:14px;font-weight:700}
+  .title{font-size:17px;font-weight:700;fill:#0F766E}
+</style>
+<rect width="1100" height="990" rx="18" fill="#FFFFFF"/>
+<rect x="200" y="30" width="700" height="880" rx="14" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+<text class="title" x="550" y="58" text-anchor="middle">Sistem BorrowMate</text>
+<line class="assoc" x1="150" y1="95" x2="150" y2="862"/>
+<line class="assoc" x1="108" y1="480" x2="150" y2="480"/>
+<line class="assoc" x1="150" y1="95" x2="450" y2="95"/>
+<line class="assoc" x1="150" y1="340" x2="450" y2="340"/>
+<line class="assoc" x1="150" y1="170" x2="450" y2="170"/>
+<line class="assoc" x1="150" y1="245" x2="450" y2="245"/>
+<line class="assoc" x1="150" y1="618" x2="230" y2="618"/>
+<line class="assoc" x1="150" y1="784" x2="230" y2="784"/>
+<line class="assoc" x1="150" y1="450" x2="230" y2="450"/>
+<line class="assoc" x1="150" y1="528" x2="230" y2="528"/>
+<line class="assoc" x1="150" y1="862" x2="230" y2="862"/>
+<line class="assoc" x1="950" y1="95" x2="950" y2="684"/>
+<line class="assoc" x1="992" y1="390" x2="950" y2="390"/>
+<line class="assoc" x1="950" y1="95" x2="650" y2="95"/>
+<line class="assoc" x1="950" y1="340" x2="650" y2="340"/>
+<line class="assoc" x1="950" y1="170" x2="650" y2="170"/>
+<line class="assoc" x1="950" y1="245" x2="650" y2="245"/>
+<line class="assoc" x1="950" y1="450" x2="870" y2="450"/>
+<line class="assoc" x1="950" y1="528" x2="870" y2="528"/>
+<line class="assoc" x1="950" y1="606" x2="870" y2="606"/>
+<line class="assoc" x1="950" y1="684" x2="870" y2="684"/>
+<line class="assoc" x1="950" y1="774" x2="950" y2="852"/>
+<line class="assoc" x1="992" y1="813" x2="950" y2="813"/>
+<line class="assoc" x1="950" y1="774" x2="870" y2="774"/>
+<line class="assoc" x1="950" y1="852" x2="870" y2="852"/>
+<path class="dep" d="M430 450 Q515 450 517 366" marker-end="url(#arr)"/>
+<path class="dep" d="M670 528 Q585 528 583 366" marker-end="url(#arr)"/>
+<line class="dep" x1="725.3" y1="427.6" x2="594.7" y2="362.4" marker-end="url(#arr)"/>
+<text class="lbl" x="452" y="416">«include»</text>
+<text class="lbl" x="598" y="482">«include»</text>
+<text class="lbl" x="690" y="396">«include»</text>
+<line class="dep" x1="330" y1="681" x2="330" y2="644" marker-end="url(#arr)"/>
+<text class="lbl" x="342" y="667">«extend»</text>
+<line class="dep" x1="382.6" y1="840.7" x2="717.4" y2="705.3" marker-end="url(#arr)"/>
+<text class="lbl" x="528" y="768" text-anchor="middle">«extend»</text>
+<ellipse cx="550" cy="95" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="550" y="89" text-anchor="middle">UC-01</text>
+<text class="name" x="550" y="105" text-anchor="middle">Registrasi</text>
+<ellipse cx="550" cy="170" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="550" y="164" text-anchor="middle">UC-03</text>
+<text class="name" x="550" y="180" text-anchor="middle">Kelola Profil</text>
+<ellipse cx="550" cy="245" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="550" y="239" text-anchor="middle">UC-08</text>
+<text class="name" x="550" y="255" text-anchor="middle">Lihat Riwayat Peminjaman</text>
+<ellipse cx="550" cy="340" rx="100" ry="25" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="550" y="334" text-anchor="middle">UC-02</text>
+<text class="name" x="550" y="350" text-anchor="middle">Login</text>
+<ellipse cx="330" cy="450" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="330" y="444" text-anchor="middle">UC-06</text>
+<text class="name" x="330" y="460" text-anchor="middle">Ajukan Peminjaman</text>
+<ellipse cx="330" cy="528" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="330" y="522" text-anchor="middle">UC-07</text>
+<text class="name" x="330" y="538" text-anchor="middle">Batalkan Pengajuan</text>
+<ellipse cx="330" cy="618" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="330" y="612" text-anchor="middle">UC-04</text>
+<text class="name" x="330" y="628" text-anchor="middle">Cari Barang</text>
+<ellipse cx="330" cy="706" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="330" y="700" text-anchor="middle">UC-16</text>
+<text class="name" x="330" y="716" text-anchor="middle">Filter Kategori</text>
+<ellipse cx="330" cy="784" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="330" y="778" text-anchor="middle">UC-05</text>
+<text class="name" x="330" y="794" text-anchor="middle">Lihat Detail Barang</text>
+<ellipse cx="330" cy="862" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="330" y="856" text-anchor="middle">UC-09</text>
+<text class="name" x="330" y="872" text-anchor="middle">Beri Ulasan</text>
+<ellipse cx="770" cy="450" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="770" y="444" text-anchor="middle">UC-10</text>
+<text class="name" x="770" y="460" text-anchor="middle">Kelola Barang</text>
+<ellipse cx="770" cy="528" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="770" y="522" text-anchor="middle">UC-11</text>
+<text class="name" x="770" y="538" text-anchor="middle">Setujui / Tolak Permintaan</text>
+<ellipse cx="770" cy="606" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="770" y="600" text-anchor="middle">UC-12</text>
+<text class="name" x="770" y="616" text-anchor="middle">Konfirmasi Serah Terima</text>
+<ellipse cx="770" cy="684" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="770" y="678" text-anchor="middle">UC-13</text>
+<text class="name" x="770" y="694" text-anchor="middle">Konfirmasi Pengembalian</text>
+<ellipse cx="770" cy="774" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="770" y="768" text-anchor="middle">UC-14</text>
+<text class="name" x="770" y="784" text-anchor="middle">Kelola Pengguna</text>
+<ellipse cx="770" cy="852" rx="100" ry="25" fill="#E6F4F1" stroke="#0F766E" stroke-width="1.6"/>
+<text class="code" x="770" y="846" text-anchor="middle">UC-15</text>
+<text class="name" x="770" y="862" text-anchor="middle">Moderasi Barang</text>
+<g stroke="#1E293B" stroke-width="2.2" stroke-linecap="round" fill="none"><circle cx="90" cy="458" r="11" fill="#FFFFFF"/><line x1="90" y1="469" x2="90" y2="498"/><line x1="72" y1="480" x2="108" y2="480"/><line x1="90" y1="498" x2="76" y2="520"/><line x1="90" y1="498" x2="104" y2="520"/></g>
+<text class="act" x="90" y="542" text-anchor="middle">Peminjam</text>
+<g stroke="#1E293B" stroke-width="2.2" stroke-linecap="round" fill="none"><circle cx="1010" cy="368" r="11" fill="#FFFFFF"/><line x1="1010" y1="379" x2="1010" y2="408"/><line x1="992" y1="390" x2="1028" y2="390"/><line x1="1010" y1="408" x2="996" y2="430"/><line x1="1010" y1="408" x2="1024" y2="430"/></g>
+<text class="act" x="1010" y="452" text-anchor="middle">Pemilik</text>
+<g stroke="#1E293B" stroke-width="2.2" stroke-linecap="round" fill="none"><circle cx="1010" cy="791" r="11" fill="#FFFFFF"/><line x1="1010" y1="802" x2="1010" y2="831"/><line x1="992" y1="813" x2="1028" y2="813"/><line x1="1010" y1="831" x2="996" y2="853"/><line x1="1010" y1="831" x2="1024" y2="853"/></g>
+<text class="act" x="1010" y="875" text-anchor="middle">Admin</text>
+<g transform="translate(30,955)"><line class="assoc" x1="0" y1="0" x2="40" y2="0"/><text class="lbl" x="48" y="4" style="font-style:normal">asosiasi</text><line class="dep" x1="130" y1="0" x2="170" y2="0" marker-end="url(#arr)"/><text class="lbl" x="180" y="4" style="font-style:normal">include / extend</text></g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxNGQyMjY5OC05ZGJlLTQzNmMtOGM5MC1hOTkwYzk2MGJjZjEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaBG34rRSrr9u3/Oi5q0xzUgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5ODYyNzUxZi1hZThhLTQzNjctYWI5Ny04NmI2MmI4MjdhZTVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo1RSn0gekANJqwD6BLzLuOgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgghqGqVQE5UGW0E+vVgwlL70HvU62FVdR7vu8mNBtORwWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaMp2gaFovIlbcJFOsJFD8isAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIP9dJuk0c+lw5zVI8VzmhAuitxh6BatP0P86Bq2bTq5/ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GSGPZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjE0ZDIyNjk4LTlkYmUtNDM2Yy04YzkwLWE5OTBjOTYwYmNmMS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjkxYWFiZDM0LWMxMmQtNGY5Zi04Yjc0LTQ0NzRjMWJlOTI1NnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCGoapVATlQZbQT69WDCUvvQe9TrYVV1Hu+7yY0G05HBaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgggE+RxbZGXjd2madjK40hkU7n15YdCbnfTyshIyrRi6aiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggvut+OcysbP6S273iJhQkpx2k86Db6eX7U7xaoyeQuCZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIz6whgfFcjzeDSCBgo1FJGRpDb8/xAwBrHtzs2x8Xs2b/iVDQ81W6QOVP4fYVmS5/uwYgKnGxA8qOp049/L+fY=</c2pa:manifest></metadata></svg>
